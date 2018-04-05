@@ -6,9 +6,36 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		470AC6E3206E56A300DC5B7D /* AgoraSignalingPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 470AC6E2206E56A300DC5B7D /* AgoraSignalingPlugin.mm */; };
+		470AC6E5206E5B1F00DC5B7D /* AgoraSigKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470AC6E4206E5B1E00DC5B7D /* AgoraSigKit.framework */; };
+		470AC6E6206E6B6A00DC5B7D /* Agora-Signaling-Bundle-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 47FCA2BA206E28F0008CAB56 /* Agora-Signaling-Bundle-Bridging-Header.h */; };
+		470CDADF20768618003B5DDF /* Bridge.h in Sources */ = {isa = PBXBuildFile; fileRef = 470AC6F1206EA92900DC5B7D /* Bridge.h */; };
+		47FCA2AB206E27A2008CAB56 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FCA2AA206E27A2008CAB56 /* libresolv.tbd */; };
+		47FCA2AD206E2843008CAB56 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FCA2AC206E2843008CAB56 /* CoreTelephony.framework */; };
+		47FCA2AF206E284A008CAB56 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FCA2AE206E284A008CAB56 /* CoreMedia.framework */; };
+		47FCA2B1206E2868008CAB56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FCA2B0206E2868008CAB56 /* AVFoundation.framework */; };
+		47FCA2B3206E2872008CAB56 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FCA2B2206E2872008CAB56 /* libc++.tbd */; };
+		47FCA2B5206E287E008CAB56 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FCA2B4206E287D008CAB56 /* VideoToolbox.framework */; };
+		47FCA2B7206E2884008CAB56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FCA2B6206E2884008CAB56 /* AudioToolbox.framework */; };
+		47FCA2BC206E28F1008CAB56 /* AgoraSignaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FCA2BB206E28F1008CAB56 /* AgoraSignaling.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		470AC6E2206E56A300DC5B7D /* AgoraSignalingPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AgoraSignalingPlugin.mm; sourceTree = "<group>"; };
+		470AC6E4206E5B1E00DC5B7D /* AgoraSigKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSigKit.framework; path = libs/AgoraSigKit.framework; sourceTree = "<group>"; };
+		470AC6F1206EA92900DC5B7D /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		47FCA29E206E25DF008CAB56 /* Agora-Signaling-Bundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agora-Signaling-Bundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FCA2A1206E25DF008CAB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FCA2AA206E27A2008CAB56 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		47FCA2AC206E2843008CAB56 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		47FCA2AE206E284A008CAB56 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		47FCA2B0206E2868008CAB56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		47FCA2B2206E2872008CAB56 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		47FCA2B4206E287D008CAB56 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		47FCA2B6206E2884008CAB56 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		47FCA2BA206E28F0008CAB56 /* Agora-Signaling-Bundle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Agora-Signaling-Bundle-Bridging-Header.h"; sourceTree = "<group>"; };
+		47FCA2BB206E28F1008CAB56 /* AgoraSignaling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraSignaling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -16,6 +43,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470AC6E5206E5B1F00DC5B7D /* AgoraSigKit.framework in Frameworks */,
+				47FCA2B7206E2884008CAB56 /* AudioToolbox.framework in Frameworks */,
+				47FCA2B5206E287E008CAB56 /* VideoToolbox.framework in Frameworks */,
+				47FCA2B3206E2872008CAB56 /* libc++.tbd in Frameworks */,
+				47FCA2B1206E2868008CAB56 /* AVFoundation.framework in Frameworks */,
+				47FCA2AF206E284A008CAB56 /* CoreMedia.framework in Frameworks */,
+				47FCA2AD206E2843008CAB56 /* CoreTelephony.framework in Frameworks */,
+				47FCA2AB206E27A2008CAB56 /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -27,6 +62,7 @@
 			children = (
 				47FCA2A0206E25DF008CAB56 /* Agora-Signaling-Bundle */,
 				47FCA29F206E25DF008CAB56 /* Products */,
+				47FCA2A9206E27A2008CAB56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,9 +77,44 @@
 		47FCA2A0206E25DF008CAB56 /* Agora-Signaling-Bundle */ = {
 			isa = PBXGroup;
 			children = (
+				47FCA2A7206E268F008CAB56 /* Plugins */,
 				47FCA2A1206E25DF008CAB56 /* Info.plist */,
 			);
 			path = "Agora-Signaling-Bundle";
+			sourceTree = "<group>";
+		};
+		47FCA2A7206E268F008CAB56 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				47FCA2A8206E26C2008CAB56 /* x86_64 */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		47FCA2A8206E26C2008CAB56 /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+				470AC6E2206E56A300DC5B7D /* AgoraSignalingPlugin.mm */,
+				47FCA2BB206E28F1008CAB56 /* AgoraSignaling.swift */,
+				47FCA2BA206E28F0008CAB56 /* Agora-Signaling-Bundle-Bridging-Header.h */,
+				470AC6F1206EA92900DC5B7D /* Bridge.h */,
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		47FCA2A9206E27A2008CAB56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				470AC6E4206E5B1E00DC5B7D /* AgoraSigKit.framework */,
+				47FCA2B6206E2884008CAB56 /* AudioToolbox.framework */,
+				47FCA2B4206E287D008CAB56 /* VideoToolbox.framework */,
+				47FCA2B2206E2872008CAB56 /* libc++.tbd */,
+				47FCA2B0206E2868008CAB56 /* AVFoundation.framework */,
+				47FCA2AE206E284A008CAB56 /* CoreMedia.framework */,
+				47FCA2AC206E2843008CAB56 /* CoreTelephony.framework */,
+				47FCA2AA206E27A2008CAB56 /* libresolv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +148,7 @@
 				TargetAttributes = {
 					47FCA29D206E25DF008CAB56 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -113,6 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470CDADF20768618003B5DDF /* Bridge.h in Sources */,
+				470AC6E6206E6B6A00DC5B7D /* Agora-Signaling-Bundle-Bridging-Header.h in Sources */,
+				47FCA2BC206E28F1008CAB56 /* AgoraSignaling.swift in Sources */,
+				470AC6E3206E56A300DC5B7D /* AgoraSignalingPlugin.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +301,32 @@
 		47FCA2A5206E25DF008CAB56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E93Z39RZD5;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/**",
+					"$(SRCROOT)/libs/**",
+				);
+				HEADER_SEARCH_PATHS = "/Users/mosmos/Project/OSX/Agora-Signaling-Bundle/libs/**";
 				INFOPLIST_FILE = "Agora-Signaling-Bundle/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/**",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.unbereal.Agora-Signaling-Bundle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Agora-Signaling-Bundle/Plugins/x86_64/Agora-Signaling-Bundle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -240,17 +334,124 @@
 		47FCA2A6206E25DF008CAB56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E93Z39RZD5;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/**",
+					"$(SRCROOT)/libs/**",
+				);
+				HEADER_SEARCH_PATHS = "/Users/mosmos/Project/OSX/Agora-Signaling-Bundle/libs/**";
 				INFOPLIST_FILE = "Agora-Signaling-Bundle/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/**",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.unbereal.Agora-Signaling-Bundle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Agora-Signaling-Bundle/Plugins/x86_64/Agora-Signaling-Bundle-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		47FCA2BD206E2A4D008CAB56 /* UnityPlugin */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D UNITY_PLUGIN";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = UNITY_PLUGIN;
+			};
+			name = UnityPlugin;
+		};
+		47FCA2BE206E2A4D008CAB56 /* UnityPlugin */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E93Z39RZD5;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/**",
+					"$(SRCROOT)/libs/**",
+				);
+				HEADER_SEARCH_PATHS = "/Users/mosmos/Project/OSX/Agora-Signaling-Bundle/libs/**";
+				INFOPLIST_FILE = "Agora-Signaling-Bundle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/**",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.unbereal.Agora-Signaling-Bundle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Agora-Signaling-Bundle/Plugins/x86_64/Agora-Signaling-Bundle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = UnityPlugin;
 		};
 /* End XCBuildConfiguration section */
 
@@ -259,6 +460,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47FCA2A2206E25DF008CAB56 /* Debug */,
+				47FCA2BD206E2A4D008CAB56 /* UnityPlugin */,
 				47FCA2A3206E25DF008CAB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -268,6 +470,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47FCA2A5206E25DF008CAB56 /* Debug */,
+				47FCA2BE206E2A4D008CAB56 /* UnityPlugin */,
 				47FCA2A6206E25DF008CAB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
